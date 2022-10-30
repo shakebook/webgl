@@ -1,0 +1,30 @@
+html,
+body,
+div,
+h1,
+h2,
+img,
+strong,
+p,
+ul,
+svg,
+canvas,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

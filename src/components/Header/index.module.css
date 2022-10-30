@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  height: 50px;
+  background-color: deepskyblue;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.container img {
+  height: 100%;
+}
+
+.container h1 {
+  color: rgb(153, 0, 0);
+}

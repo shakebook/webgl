@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  height: 100%;
+  background-color: rgb(245, 243, 243);
+  width: 270px;
+  border-right: 1px solid rgb(234, 234, 234);
+
+}
+
+.nav ul {
+  padding: 15px;
+  width: 100%;
+}
+
+.nav ul li {
+  padding: 5px 0;
+}
+
+.nav a {
+  color: #000;
+  font-size: 13px;
+  width: 100%;
+  display: block;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.active {
+  color: red;
+}
