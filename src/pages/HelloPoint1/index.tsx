@@ -68,7 +68,7 @@ export default function HelloPoint1() {
         gl.clearColor(0.02, 0.75, 1.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
         gl.useProgram(shaderProgram);
-        gl.drawArrays(gl.POINTS, 1, 1);
+        gl.drawArrays(gl.POINTS, 0, 1);
       }
     } else {
       setErrorText("Not support WebGL");
